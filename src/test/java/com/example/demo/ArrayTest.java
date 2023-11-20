@@ -101,4 +101,15 @@ public class ArrayTest {
 		System.out.println("================");
 		
 	}
+	@Test
+	public void listTest3() {
+		String str = "ABC";
+		String str1 = new String("ASD");
+		String str2 = null;
+		System.out.println(str.length());
+		System.out.println(str1.length());
+//		System.out.println(str2.length()); //null.方法一定報錯
+		System.out.println("================");
+		
+	}
 }
